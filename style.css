@@ -227,7 +227,7 @@ footer a{
 
 
 /* Responsive Media Design */
-@media (max-width: 600px) {
+@media (max-width: 820px) {
 
   header h1{
   font-size: 4.5rem;
@@ -240,6 +240,11 @@ footer a{
   .navbar {
     flex-wrap: wrap;
     flex-direction: column;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    padding: 0;
     font-size: 2rem;
     margin: 0.5rem;
   }
@@ -272,12 +277,6 @@ footer a{
     width: 100%;
     object-fit: cover;
     border-radius: 1.8rem;
-  }
-
-  .Blender{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
   }
 
   .BlenderImage, .PhotosImage, .WebsiteImage{
