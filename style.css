@@ -234,8 +234,17 @@ footer a{
 
   .navbar ul {
     flex-wrap: wrap;
+    flex-direction: column;
     font-size: 2rem;
     margin: 0.5rem;
+  }
+
+  .navbar img {
+    width:  8rem;
+    height: auto;
+  }
+  .navbar p {
+    margin-right: 0;
   }
 
   .navbar li{
